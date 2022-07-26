@@ -1,0 +1,4 @@
+# apriltag
+1.需要安装ros_apriltag的依赖包才能编译通过
+2.使用该代码时需要修改config文件夹中的intrinsic_calibration.yaml，该文件存储了相机的内参矩阵
+3.需要修改tags.yaml中的standalone_tags:id对应apriltag的id号，size为tag码尺寸大小，name为tag（随意取名）
